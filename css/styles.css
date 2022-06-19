@@ -5,12 +5,14 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 20px 1px;
     justify-items: center;
+    margin-left: 200px;
 }
 
 .search-box {
     display: flex;
     width: 1000px;
     justify-content: center;
+    margin-left: 200px;
 }
 
 input {
@@ -18,3 +20,4 @@ input {
     padding: 15px;
     width: 600px;
 }
+
