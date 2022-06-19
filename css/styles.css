@@ -1,0 +1,20 @@
+.gallery {
+    display: grid;
+    max-width:1000px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px 1px;
+    justify-items: center;
+}
+
+.search-box {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+}
+
+input {
+    margin: 20px auto;
+    padding: 15px;
+    width: 600px;
+}
